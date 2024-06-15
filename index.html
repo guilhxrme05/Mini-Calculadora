@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINI CALCULADORA</title>
+</head>
+<body>
+    <style>
+        body{
+            background: radial-gradient(circle, #93F9B9, #1D976C);
+        }
+    </style>
+
+   
+    
+<center>
+    <label style="font-size:xx-large; font-weight: bold;">Mini Calculadora</label><br><br>
+     <img width="150px" height="150px" src="calculadora.png" alt=""><br><br><br>
+
+    <label style="font-size: x-large; font-weight: bold;">Valor 1 &nbsp;</label><br><input style="border: solid black; font-size: x-large;" id="inptNumeroUm" type="number"><br><br><br>
+    <label style="font-size: x-large; font-weight: bold;">Valor 2 &nbsp;</label><br><input style="border: solid black; font-size: x-large;" id="inptNumeroDois" type="number"><br><br><br>
+     
+    <label style="font-size: x-large; font-weight: bold;">Resultado &nbsp;</label><br>
+    <input style="border: solid black; font-size: x-large;" id="resultado" type="text" readonly><br><br>
+
+
+    <button style="background-color: black; color: white; font-size: x-large;" onclick="Soma()">SOMA</button>&nbsp;&nbsp;
+    <button style="background-color: black; color: white; font-size: x-large;" onclick="Multiplicacao()">MULTIPLICAÇÃO</button>&nbsp;&nbsp;
+    <button style="background-color: black; color: white; font-size: x-large;" onclick="Divisao()">DIVISÃO</button>&nbsp;&nbsp;
+    <button style="background-color: black; color: white; font-size: x-large;" onclick="Subtracao()">SUBTRAÇÃO</button>&nbsp;&nbsp;<br><br><br> <button style="background-color: black; color: white; font-size: x-large;" onclick="LimparDados()">LIMPAR DADOS</button>
+</center>
+    
+    <script src="file.js"></script>
+
+</body>
+</html>
